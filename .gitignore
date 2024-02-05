@@ -72,3 +72,5 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 heavendefense/Library/Search/transactions.db
 heavendefense/Logs/AssetImportWorker0.log
+*.log
+*.db
