@@ -30,8 +30,8 @@ public class TORRETA : MonoBehaviour
         // ...
 
         // Instancia una bala y ajusta su dirección
-        GameObject bala = Instantiate(balaPrefab, transform.position, Quaternion.identity);
-        bala.GetComponent<Bala>().ApuntarAlEnemigo(enemigoDetectado);
+        //GameObject bala = Instantiate(balaPrefab, transform.position, Quaternion.identity);
+        //bala.GetComponent<Bala>().ApuntarAlEnemigo(enemigoDetectado);
     }
 }
 
