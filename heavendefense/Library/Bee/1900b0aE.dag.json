@@ -22856,8 +22856,13 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp",
       "DisplayName": "Writing Assembly-CSharp.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 1725390,
       "PayloadLength": 35623,
+=======
+      "PayloadOffset": 1457322,
+      "PayloadLength": 35205,
+>>>>>>> 10bdbd09b0778d4cb65cb3e2737a090762aac541
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
       "Outputs": [
@@ -22869,7 +22874,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp2",
       "DisplayName": "Writing Assembly-CSharp.rsp2",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 1761100,
+=======
+      "PayloadOffset": 1492614,
+>>>>>>> 10bdbd09b0778d4cb65cb3e2737a090762aac541
       "PayloadLength": 0,
       "PayloadDebugContentSnippet": "",
       "Inputs": [],
@@ -23119,6 +23128,7 @@
         "Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll",
         "Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll",
         "Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll",
+<<<<<<< HEAD
         "Assets/scripts/invocarenemigos.cs",
         "Assets/scripts/MainMenu.cs",
         "Assets/scripts/SCRIP/DINERO.cs",
@@ -23126,6 +23136,16 @@
         "Assets/scripts/SCRIP/MURO.cs",
         "Assets/scripts/SCRIP/TORRETA.cs",
         "Assets/scripts/SCRIP/VIDA Y PUNTUACION.cs",
+=======
+        "Assets/Scripts/invocarenemigos.cs",
+        "Assets/Scripts/MainMenu.cs",
+        "Assets/Scripts/SCRIP/CREAROBJETOS.cs",
+        "Assets/Scripts/SCRIP/DINERO.cs",
+        "Assets/Scripts/SCRIP/ENEMIGOS.cs",
+        "Assets/Scripts/SCRIP/MURO.cs",
+        "Assets/Scripts/SCRIP/TORRETA.cs",
+        "Assets/Scripts/SCRIP/VIDA Y PUNTUACION.cs",
+>>>>>>> 10bdbd09b0778d4cb65cb3e2737a090762aac541
         "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs",
         "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs",
         "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs",
@@ -23440,8 +23460,13 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll.mvfrm.rsp",
       "DisplayName": "Writing Assembly-CSharp.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 1761196,
       "PayloadLength": 9896,
+=======
+      "PayloadOffset": 1492710,
+      "PayloadLength": 9366,
+>>>>>>> 10bdbd09b0778d4cb65cb3e2737a090762aac541
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
       "Outputs": [
