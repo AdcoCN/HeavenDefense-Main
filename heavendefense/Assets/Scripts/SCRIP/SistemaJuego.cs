@@ -10,7 +10,7 @@ public class SistemaJuego : MonoBehaviour
     private int numeroRonda = 1;
     private bool rondaEnProgreso = false;
     private SistemaEconomia sistemaEconomia;
-
+    private SistemaColocacion sistemaColocacion;
     public Text textoTiempo;
     public Text textoRonda;
     public Text textoDinero;
@@ -18,6 +18,7 @@ public class SistemaJuego : MonoBehaviour
     void Start()
     {
         sistemaEconomia = GetComponent<SistemaEconomia>();
+        sistemaColocacion = GetComponent<SistemaColocacion>();
         IniciarNuevaRonda();
     }
 
@@ -29,6 +30,23 @@ public class SistemaJuego : MonoBehaviour
             textoTiempo.text = "Tiempo: " + Mathf.Round(tiempoTranscurrido).ToString() + "s";
             textoRonda.text = "Ronda: " + numeroRonda.ToString();
             textoDinero.text = "Dinero: " + sistemaEconomia.ObtenerDinero().ToString("C2");
+
+            if (Input.GetMouseButtonDown(0))  // Botón izquierdo del ratón para colocar elementos
+            {
+                sistemaColocacion.ColocarElemento();
+            }
+
+            if (Input.GetKeyDown(KeyCode.Y))  // Tecla Y para seleccionar torreta
+            {
+                sistemaColocacion.modoTorreta = true;
+                sistemaColocacion.CambiarModo();
+            }
+
+            if (Input.GetKeyDown(KeyCode.G))  // Tecla G para seleccionar muro
+            {
+                sistemaColocacion.modoTorreta = false;
+                sistemaColocacion.CambiarModo();
+            }
 
             if (tiempoTranscurrido >= duracionRondaInicial + (numeroRonda - 1) * 60f)
             {
