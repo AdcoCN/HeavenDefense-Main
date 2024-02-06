@@ -2,36 +2,59 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-
-public class TORRETA : MonoBehaviour
+public class Torreta : MonoBehaviour
 {
-    public Transform areaDeDeteccion;
-    public GameObject balaPrefab;
-    public GameObject bala;
-    public float cooldownTime = 2f;
-    private float cooldownTimer = 0f;
+    public float radioDeteccion = 5f;
+    public int costoTorreta = 50;
+    public AudioClip sonidoDisparo;
+    public GameObject prefabBala;
+    public Transform puntoDisparo;
+    public float cadenciaDisparo = 1f;
+    public float tiempoDestruccionBala = 1.5f;
+    private SistemaEconomia sistemaEconomia;
+    private AudioSource audioSource;
+    private float tiempoUltimoDisparo;
+
+    void Start()
+    {
+        sistemaEconomia = GetComponentInParent<SistemaEconomia>();
+        audioSource = GetComponent<AudioSource>();
+        tiempoUltimoDisparo = -cadenciaDisparo;
+    }
 
     void Update()
     {
-        if (cooldownTimer <= 0f)
+        DetectarEnemigos();
+    }
+
+    void DetectarEnemigos()
+    {
+        Collider[] enemigosCercanos = Physics.OverlapSphere(transform.position, radioDeteccion);
+
+        foreach (Collider enemigo in enemigosCercanos)
         {
-            DetectarEnemigoYDisparar();
-            cooldownTimer = cooldownTime;
-        }
-        else
-        {
-            cooldownTimer -= Time.deltaTime;
+            if (enemigo.CompareTag("Enemigo"))
+            {
+                Disparar(enemigo.transform.position);
+            }
         }
     }
 
-    void DetectarEnemigoYDisparar()
+    void Disparar(Vector3 posicionEnemigo)
     {
-        // Implementa la lógica de detección de enemigos aquí
-        // ...
+        if (Time.time - tiempoUltimoDisparo > cadenciaDisparo)
+        {
+            GameObject bala = Instantiate(prefabBala, puntoDisparo.position, Quaternion.identity);
+            Vector3 direccion = (posicionEnemigo - puntoDisparo.position).normalized;
+            bala.GetComponent<Rigidbody>().AddForce(direccion * 10f, ForceMode.Impulse);
+            tiempoUltimoDisparo = Time.time;
 
-        // Instancia una bala y ajusta su dirección
-        //GameObject bala = Instantiate(balaPrefab, transform.position, Quaternion.identity);
-        //bala.GetComponent<Bala>().ApuntarAlEnemigo(enemigoDetectado);
+            if (audioSource != null && sonidoDisparo != null)
+            {
+                audioSource.Play();
+            }
+
+            Destroy(bala, tiempoDestruccionBala);
+        }
     }
 }
-
