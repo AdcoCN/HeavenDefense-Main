@@ -2,17 +2,31 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class SistemaEconomia : MonoBehaviour
 {
     public int dineroInicial = 100;
     private int dineroActual;
-    public Text textoDinero;
+    public TMP_Text textoDinero;
 
     void Start()
     {
         dineroActual = dineroInicial;
         ActualizarTextoDinero();
+    }
+
+    public void RestarDinero(int cantidad)
+    {
+        if (dineroActual >= cantidad)
+        {
+            dineroActual -= cantidad;
+            ActualizarTextoDinero();
+        }
+        else
+        {
+            Debug.Log("No tienes suficiente dinero.");
+        }
     }
 
     void ActualizarTextoDinero()
@@ -34,7 +48,6 @@ public class SistemaEconomia : MonoBehaviour
         }
         else
         {
-            // Mensaje al jugador indicando que no tiene suficiente dinero para comprar
             Debug.Log("No tienes suficiente dinero para comprar esto.");
         }
     }
@@ -50,3 +63,4 @@ public class SistemaEconomia : MonoBehaviour
         return dineroActual;
     }
 }
+

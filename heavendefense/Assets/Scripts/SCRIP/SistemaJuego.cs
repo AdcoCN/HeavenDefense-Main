@@ -1,7 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class SistemaJuego : MonoBehaviour
 {
@@ -11,9 +13,9 @@ public class SistemaJuego : MonoBehaviour
     private bool rondaEnProgreso = false;
     private SistemaEconomia sistemaEconomia;
     private SistemaColocacion sistemaColocacion;
-    public Text textoTiempo;
-    public Text textoRonda;
-    public Text textoDinero;
+    public TMP_Text textoTiempo;
+    public TMP_Text textoRonda;
+    public TMP_Text textoDinero;
 
     void Start()
     {

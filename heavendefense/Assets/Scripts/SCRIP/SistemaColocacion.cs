@@ -5,8 +5,7 @@ using UnityEngine;
 public class SistemaColocacion : MonoBehaviour
 {
     public Torreta torretaPrefab;
-    public GameObject muroPrefab;
-    public int costoMuro = 40;
+    public Muro muroPrefab;
     public SistemaEconomia sistemaEconomia;
     public bool modoTorreta = true;  // true para torreta, false para muro
 
