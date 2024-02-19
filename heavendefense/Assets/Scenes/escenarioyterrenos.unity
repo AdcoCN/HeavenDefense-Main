@@ -555,8 +555,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79b36196d2b4d724c9b7c2392638a84a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  torretaPrefab: {fileID: 0}
-  muroPrefab: {fileID: 0}
+  torretaPrefab: {fileID: 3825815722035702426, guid: b210bf430ab4a8d4696bd705573d38dc, type: 3}
+  muroPrefab: {fileID: 173025655417384272, guid: 62354a3fc2965084b9aabd217e6fd8d4, type: 3}
   sistemaEconomia: {fileID: 34750721}
   modoTorreta: 1
 --- !u!4 &157017491
@@ -631,7 +631,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 0}
+  m_Texture: {fileID: 2800000, guid: 2edb0f7f39feb6442a9c0caf0a2250e3, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -1336,7 +1336,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 0}
+  m_Texture: {fileID: 2800000, guid: 47a56504ab419404eabc0a04deafa601, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -1738,63 +1738,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1694082759
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4681275885339985482, guid: 92a31093ac950bd45af311b63eb1a06c, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 237.6375
-      objectReference: {fileID: 0}
-    - target: {fileID: 4681275885339985482, guid: 92a31093ac950bd45af311b63eb1a06c, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.0000023841858
-      objectReference: {fileID: 0}
-    - target: {fileID: 4681275885339985482, guid: 92a31093ac950bd45af311b63eb1a06c, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 8.582279
-      objectReference: {fileID: 0}
-    - target: {fileID: 4681275885339985482, guid: 92a31093ac950bd45af311b63eb1a06c, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.091678455
-      objectReference: {fileID: 0}
-    - target: {fileID: 4681275885339985482, guid: 92a31093ac950bd45af311b63eb1a06c, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4681275885339985482, guid: 92a31093ac950bd45af311b63eb1a06c, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.9957887
-      objectReference: {fileID: 0}
-    - target: {fileID: 4681275885339985482, guid: 92a31093ac950bd45af311b63eb1a06c, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4681275885339985482, guid: 92a31093ac950bd45af311b63eb1a06c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4681275885339985482, guid: 92a31093ac950bd45af311b63eb1a06c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 169.48
-      objectReference: {fileID: 0}
-    - target: {fileID: 4681275885339985482, guid: 92a31093ac950bd45af311b63eb1a06c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5457495444621532400, guid: 92a31093ac950bd45af311b63eb1a06c, type: 3}
-      propertyPath: m_Name
-      value: "dise\xF1o robot enemigo (2)"
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 92a31093ac950bd45af311b63eb1a06c, type: 3}
 --- !u!1 &1762090137
 GameObject:
   m_ObjectHideFlags: 0
@@ -2159,5 +2102,4 @@ SceneRoots:
   - {fileID: 34750720}
   - {fileID: 386950169}
   - {fileID: 418992004}
-  - {fileID: 1694082759}
   - {fileID: 157017491}

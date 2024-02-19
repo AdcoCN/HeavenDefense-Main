@@ -15,7 +15,7 @@ C:/Users/3D Tarde/patthfindjordanadu/HeavenDefense-Main/heavendefense
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50851
+51499
 Successfully changed project path to: C:/Users/3D Tarde/patthfindjordanadu/HeavenDefense-Main/heavendefense
 C:/Users/3D Tarde/patthfindjordanadu/HeavenDefense-Main/heavendefense
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/3D Tarde/patthfindjordanadu/HeavenDefense-Main/heavendefense
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [5128] Host "[IP] 172.16.137.97 [Port] 0 [Flags] 2 [Guid] 3077937965 [EditorId] 3077937965 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-J31V2MS) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [8884] Host "[IP] 172.16.137.97 [Port] 0 [Flags] 2 [Guid] 3383060318 [EditorId] 3383060318 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-J31V2MS) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [5128] Host "[IP] 172.16.137.97 [Port] 0 [Flags] 2 [Guid] 3077937965 [EditorId] 3077937965 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-J31V2MS) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8884] Host "[IP] 172.16.137.97 [Port] 0 [Flags] 2 [Guid] 3383060318 [EditorId] 3383060318 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-J31V2MS) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 10.47 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 14.52 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.9f1 (ea401c316338)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/Resources/UnitySubsystems
@@ -70,46 +70,46 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56164
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56724
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.011779 seconds.
-- Loaded All Assemblies, in  0.468 seconds
+Registered in 0.023797 seconds.
+- Loaded All Assemblies, in  0.884 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.260 seconds
-Domain Reload Profiling: 727ms
-	BeginReloadAssembly (206ms)
+- Finished resetting the current domain, in  0.601 seconds
+Domain Reload Profiling: 1482ms
+	BeginReloadAssembly (260ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (34ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (62ms)
-	LoadAllAssembliesAndSetupDomain (152ms)
-		LoadAssemblies (204ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (94ms)
+	RebuildNativeTypeToScriptingClass (36ms)
+	initialDomainReloadingComplete (145ms)
+	LoadAllAssembliesAndSetupDomain (346ms)
+		LoadAssemblies (254ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (151ms)
-			TypeCache.Refresh (149ms)
-				TypeCache.ScanAssembly (136ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
+		AnalyzeDomain (343ms)
+			TypeCache.Refresh (338ms)
+				TypeCache.ScanAssembly (312ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (261ms)
+	FinalizeReload (602ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (198ms)
+		SetupLoadedEditorAssemblies (468ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (11ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (26ms)
+			SetLoadedEditorAssemblies (13ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (131ms)
-			ProcessInitializeOnLoadMethodAttributes (49ms)
+			BeforeProcessingInitializeOnLoad (5ms)
+			ProcessInitializeOnLoadAttributes (305ms)
+			ProcessInitializeOnLoadMethodAttributes (119ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -117,62 +117,62 @@ Domain Reload Profiling: 727ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-Symbol file data-0000016EF4A92710 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file data-0000022F72ED3C70 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016EF533C020 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-0000022F72CE8010 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016EF533C020 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-0000022F72CE8010 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016EF4A98360 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file data-0000022F73B5FE30 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016EF61C2E20 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-0000022F73A86620 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016EF61C2E20 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-0000022F72CE8010 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016EF61C2E20 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-0000022F73B78E40 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016EF533C020 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file data-0000022F721B8E90 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016EF537D630 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-0000022F72CFFE20 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016EF6689010 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file data-0000022F74112010 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016EF61C2E20 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-0000022F72D15830 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016EF70030D0 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-0000022F74112010 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016EF66C0620 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file data-0000022F7413B2A0 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016EF70030D0 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file data-0000022F74274E20 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016EF70030D0 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-0000022F74112010 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016EF61D2E30 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file data-0000022F73B80E50 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016EB0DB3540 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file data-0000022F73B80E50 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016EF70030D0 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file data-0000022F74274E20 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016EF70030D0 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file data-0000022F74112010 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016EF7009AE0 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file data-0000022F74118A20 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016EF7009AE0 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-0000022F74118A20 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016EF7009AE0 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file data-0000022F74118A20 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016EF7013EF0 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file data-0000022F74122E30 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\Unity.Settings.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016EF4CAF280 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-0000022F73912010 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016EF66D8E30 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-0000022F74274E20 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016EF66D8E30 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file data-0000022F74048440 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000016EF66F0750 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-0000022F7405FD60 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.015 seconds
-Refreshing native plugins compatible for Editor in 3.36 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.368 seconds
+Refreshing native plugins compatible for Editor in 6.31 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -180,48 +180,117 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.656 seconds
-Domain Reload Profiling: 1635ms
-	BeginReloadAssembly (167ms)
+- Finished resetting the current domain, in  1.365 seconds
+Domain Reload Profiling: 2725ms
+	BeginReloadAssembly (301ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (11ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (25ms)
-	RebuildCommonClasses (37ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (45ms)
-	LoadAllAssembliesAndSetupDomain (718ms)
-		LoadAssemblies (587ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (90ms)
+	RebuildNativeTypeToScriptingClass (30ms)
+	initialDomainReloadingComplete (110ms)
+	LoadAllAssembliesAndSetupDomain (830ms)
+		LoadAssemblies (622ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (229ms)
-			TypeCache.Refresh (201ms)
-				TypeCache.ScanAssembly (182ms)
-			ScanForSourceGeneratedMonoScriptInfo (20ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (656ms)
+		AnalyzeDomain (388ms)
+			TypeCache.Refresh (342ms)
+				TypeCache.ScanAssembly (314ms)
+			ScanForSourceGeneratedMonoScriptInfo (30ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (1366ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (490ms)
+		SetupLoadedEditorAssemblies (1011ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (10ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (63ms)
-			ProcessInitializeOnLoadAttributes (390ms)
-			ProcessInitializeOnLoadMethodAttributes (18ms)
-			AfterProcessingInitializeOnLoad (7ms)
+			BeforeProcessingInitializeOnLoad (138ms)
+			ProcessInitializeOnLoadAttributes (788ms)
+			ProcessInitializeOnLoadMethodAttributes (40ms)
+			AfterProcessingInitializeOnLoad (19ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 4.32 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (18ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 11.78 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3330 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 53 unused Assets / (1.3 MB). Loaded Objects now: 3805.
 Memory consumption went from 146.2 MB to 144.9 MB.
-Total: 8.312100 ms (FindLiveObjects: 0.505200 ms CreateObjectMapping: 0.372400 ms MarkObjects: 6.368000 ms  DeleteObjects: 1.063900 ms)
+Total: 14.340700 ms (FindLiveObjects: 1.940200 ms CreateObjectMapping: 1.026000 ms MarkObjects: 10.032800 ms  DeleteObjects: 1.339600 ms)
 
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 5827.312554 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Sprites/Default Sprites.png
+  artifactKey: Guid(a0fc465d6cf04254a2938578735e2383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Sprites/Default Sprites.png using Guid(a0fc465d6cf04254a2938578735e2383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dcb717e39302053379e03581d91008e') in 0.217002 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Small Crate_diffuse.jpg
+  artifactKey: Guid(602cb87b6a29443b8636370ea0751574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Small Crate_diffuse.jpg using Guid(602cb87b6a29443b8636370ea0751574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e90d7112882bc68cf7991171ad01cf83') in 0.090406 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Radial Quad.psd
+  artifactKey: Guid(2b5e9ae96c5644d8bae932f8b4ca68a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Radial Quad.psd using Guid(2b5e9ae96c5644d8bae932f8b4ca68a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81f8cf8c97fca6521dfb2a42149e195e') in 0.180461 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Diagonal.psd
+  artifactKey: Guid(ed5290d8df18488780e2996b9b882f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Diagonal.psd using Guid(ed5290d8df18488780e2996b9b882f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e421a501ccfb760792caa485f56569f') in 0.062515 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Fruit Jelly (B&W).jpg
+  artifactKey: Guid(1cdc5b506b1a4a33a53c30669ced1f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Fruit Jelly (B&W).jpg using Guid(1cdc5b506b1a4a33a53c30669ced1f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bfb469e608289c495c6f541de414c2a') in 0.080330 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Floor Cement.jpg
+  artifactKey: Guid(283f897e4925411ebbaa758b4cb13fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Floor Cement.jpg using Guid(283f897e4925411ebbaa758b4cb13fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03ad0fe0526827fcfbaeb39730ce2740') in 0.069387 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 21.30 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 13 unused Assets / (1.3 MB). Loaded Objects now: 3812.
+Memory consumption went from 87.4 MB to 86.2 MB.
+Total: 11.782300 ms (FindLiveObjects: 0.679100 ms CreateObjectMapping: 0.568400 ms MarkObjects: 9.876000 ms  DeleteObjects: 0.656400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -236,71 +305,242 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 1782.325308 seconds.
-  path: Assets/materiales/prefabs/diseÃ±o robot enemigo.obj
-  artifactKey: Guid(32a4919c332129b479ea49e4ce0476ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materiales/prefabs/diseÃ±o robot enemigo.obj using Guid(32a4919c332129b479ea49e4ce0476ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ebaf1a591310506a68caa863edb8402') in 0.295266 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file data-0000022F723DD020 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022F74BFCC50 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022F72E7B020 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022F72BC7FC0 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022F72BC7FC0 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022F723639E0 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022F723639E0 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022F728B91A0 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022F2E9F1C60 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022F75789010 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022F723639E0 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022F7D8B7010 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022F7D5C5020 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022F7EB39660 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022F2EBE1780 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022F72BC7FC0 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022F74D9D930 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022F7EB39660 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022F723639E0 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022F72466160 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022F723639E0 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022F723639E0 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022F7D5EDE40 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022F7270EEC0 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022F74E2E010 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022F7CEF0500 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022F7D020020 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.821 seconds
+Refreshing native plugins compatible for Editor in 4.63 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.723 seconds
+Domain Reload Profiling: 3539ms
+	BeginReloadAssembly (259ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (58ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (424ms)
+		LoadAssemblies (548ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (26ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (2724ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (944ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (139ms)
+			ProcessInitializeOnLoadAttributes (721ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
+			AfterProcessingInitializeOnLoad (15ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 9.99 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3274 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (1.3 MB). Loaded Objects now: 3815.
+Memory consumption went from 138.2 MB to 136.9 MB.
+Total: 9.057600 ms (FindLiveObjects: 0.608300 ms CreateObjectMapping: 0.546500 ms MarkObjects: 7.148100 ms  DeleteObjects: 0.752600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 88.883409 seconds.
-  path: Assets/materiales/prefabs/diseÃ±o robot enemigo.obj
-  artifactKey: Guid(32a4919c332129b479ea49e4ce0476ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materiales/prefabs/diseÃ±o robot enemigo.obj using Guid(32a4919c332129b479ea49e4ce0476ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd27c43f631a45782e1f22465737f3926') in 0.031908 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 70.892939 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Drop Shadow.mat
-  artifactKey: Guid(749b9069dc4742c5bfa5c74644049926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Drop Shadow.mat using Guid(749b9069dc4742c5bfa5c74644049926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adac4150b83544ca90ae15e6a24b8519') in 0.072149 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Materials/Small Crate_diffuse.mat
-  artifactKey: Guid(22262639920f43d6be32430e4e58350d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Materials/Small Crate_diffuse.mat using Guid(22262639920f43d6be32430e4e58350d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30f38c7b97fe9bd1cefc76f25f14b789') in 0.264600 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Materials/Crate - Surface Shader Scene.mat
-  artifactKey: Guid(e6b9b44320f4448d9d5e0ee634259966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Materials/Crate - Surface Shader Scene.mat using Guid(e6b9b44320f4448d9d5e0ee634259966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fffcd38ff2087a5441c42bce2f839441') in 0.167663 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Glow.mat
-  artifactKey: Guid(d75b8f41e959450c84ac6e967084d3e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Glow.mat using Guid(d75b8f41e959450c84ac6e967084d3e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3786fd450c283f4ee7f33f87f55634ce') in 0.094495 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Logo.mat
-  artifactKey: Guid(f4e195ac1e204eff960149d1cb34e18c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Logo.mat using Guid(f4e195ac1e204eff960149d1cb34e18c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0279cc509ed30c4c1fbd4aece197bbff') in 0.283884 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Anton.ttf
-  artifactKey: Guid(997a43b767814dd0a7642ec9b78cba41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Anton.ttf using Guid(997a43b767814dd0a7642ec9b78cba41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9f14033b84d77025a5fbc24bc4dbf86') in 0.028394 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: La operación de E/S se anuló por una salida de subproceso o por una solicitud de aplicación.
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file data-0000022F74B080A0 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022F7D8650C0 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022F72E7B020 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022F72BC7FC0 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022F7269ABC0 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022F7CD0A6D0 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022F74D95920 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022F75367030 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022F75555030 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022F74222010 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022F723DD020 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022F7CE7A080 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022F728B91A0 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022F75124020 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022F73E4DE30 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022F7CF37E30 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022F7269ABC0 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022F75124020 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022FE25A6010 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022FE21DA300 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022F723639E0 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022F74D95920 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022F74C9D090 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022F728B91A0 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022F7CCE2040 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022F74C9D090 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000022F725D20D0 doesn't match image C:\Users\3D Tarde\patthfindjordanadu\HeavenDefense-Main\heavendefense\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.835 seconds
+Refreshing native plugins compatible for Editor in 4.84 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.032 seconds
+Domain Reload Profiling: 2862ms
+	BeginReloadAssembly (268ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (52ms)
+	RebuildCommonClasses (86ms)
+	RebuildNativeTypeToScriptingClass (28ms)
+	initialDomainReloadingComplete (59ms)
+	LoadAllAssembliesAndSetupDomain (388ms)
+		LoadAssemblies (522ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (23ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (2033ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1086ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (154ms)
+			ProcessInitializeOnLoadAttributes (835ms)
+			ProcessInitializeOnLoadMethodAttributes (47ms)
+			AfterProcessingInitializeOnLoad (20ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 10.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3274 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (1.3 MB). Loaded Objects now: 3818.
+Memory consumption went from 138.2 MB to 136.9 MB.
+Total: 9.268900 ms (FindLiveObjects: 0.612500 ms CreateObjectMapping: 0.526400 ms MarkObjects: 7.402400 ms  DeleteObjects: 0.725700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
